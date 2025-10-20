@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+
+    <meta charset="UTF-8">
+    <title>video</title>
+<link rel="stylesheet" type="text/css" href="video.css">
+  </head>  
+  <body>
+    <div class="container">
+      <h1> Video Gallery ONIMEX</h1>
+    </div>
+      <div class="row">
+        <div class="col">
+          <div class="feature-img">
+            <img src="image/Animex1.jpeg "width="100%">
+            <img src="image/Play_icon.png"class="play-btn" onclick="playvideo('video/AMV.mp4')">
+          </div>
+        </div>
+        <div class="col">
+          <div class="small-img-row">
+            <div class="small-img">
+              <img src="image/Animex2.jpeg" >
+               <img src="image/Play_icon.png"class="play-btn" onclick="playvideo('video/AMV_TRAP.mp4')">
+             </div>
+            <p> Add multiple videos<br> onimex </p>
+          </div>
+           <div class="small-img-row">
+            <div class="small-img">
+              <img src="image/Animx3.jpeg" >
+               <img src="image/Play_icon.png"class="play-btn" onclick="playvideo('video/Levi.mp4')">
+             </div>
+            <p> Add multiple videos<br> onimex </p>
+          </div>
+        </div>
+      </div>
+     <div class="video-player" id="videoplayer">
+       <video width="100%" controls id="monvideo" >
+         <source src="video/AMV.mp4" type="video/mp4">
+       </video>
+       <img src="image/Close_icon.png"class="close-btn" onclick="stopvideo()">
+     </div>
+     <script>
+var videoplayer=document.getElementById("videoplayer");
+var monvideo=document.getElementById("monvideo");
+function stopvideo(){
+
+       videoplayer.style.display="none" 
+}
+ function playvideo(file){
+   monvideo.src=file;
+   videoplayer.style.display="block";
+
+ }
+
+     </script>
+  </body>
+
+</html>

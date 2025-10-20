@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html> 
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width , initial-scale=1.0"/>
+
+        <title> Les selecteurs </title>
+
+
+     <style>
+         #first::before{
+             content: "HELLO";
+             color: royalblue;
+
+         }
+         #firste::first-letter{
+             font-style: bold;
+             font-size: 30px;
+             font-weight: 500px;
+             color: slateblue;
+         }
+         h1{
+             background-color: maroon;
+             color: mintcream;
+             padding: 12px;
+         }
+         p i {
+             border: solid ghostwhite;
+         }
+         p.intro{
+             background-color:  grey ;
+             color: honeydew;
+             border-left: solid  hotpink ;
+             padding: 10px;
+         }
+         p.auto {height: 150px;
+            width: 500x;
+            color: rgb(230, 230, 230);
+            background-color:brown;
+            margin-bottom: 50px;
+            overflow: scroll;
+             
+         }
+         h2[title*="hyper"]
+         {
+             background-color:seagreen ;
+             border-left:solid gold;
+             color: papayawhip;
+             padding: 20px 10px;
+         }
+        .intro{
+
+            color:purple;
+            background-color: red;
+        }
+           ul li {
+                 border: solid 2px black;
+                 background-color: burlywood;
+
+           }
+           h3{
+               background-color: green;
+               color: honeydew;
+               border-left:solid 2px gold;
+           }
+           h4~h5{
+               background-color :green;
+               color: honeydew;
+           }
+           .space{
+
+            margin-left:500px;
+        }
+        ul li ::before{
+           content: "hello"; 
+           color: darkgreen;
+        }
+        p.intro ::selection{
+            background-color: black;
+        }
+        p.more{
+            background-color: green;
+            color: honeydew;
+            border-left:2px solid gold;
+        }
+      </style>
+</head>
+<body>
+
+    <h1> Les selecteurs </h1>
+    <ul>
+        <li> type</li>
+        <li> class</li>
+        <li> identifier</li>
+    </ul>
+
+    <p class="intro">
+        Lorem ipsum<i>dolor sit</i> , amet<span class="space">consectetur adipisicing elit.</span>  
+        Expedita ad, odit ducimus unde maxime nostrum laborum quas dolorem iste iure id,
+         quae beatae nulla aliquid doloremque itaque. Ullam, quidem sit!
+    </p>
+ <h2 title="hypertext markup language"> HTML </h2>
+
+    <p id="first"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi fuga nobis eius sit commodi
+         ratione nulla nostrum neque,
+         architecto rerum laborum veritatis animi voluptates odit voluptatibus. Tenetur amet perferendis modi.
+    </p>
+    <h3>les types suivant</h3>
+    <ol>
+        <li>type1</li>
+        <li>type2</li>
+        <li>type3</li>
+        <li>type4</li>
+
+
+    </ol>
+    <h4>Systeme </h4>
+
+    <p id="firste"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea aperiam repellat,
+         numquam harum quae exercitationem saepe cumque totam dolore est laborum inventore
+          libero accusamus dignissimos deleniti iure odit. Itaque, natus.
+    </p>
+
+   <h5>final</h5> 
+
+    <p class="intro">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis perferendis voluptatibus neque deserunt autem vero enim delectus minus quia harum,
+         velit laudantium debitis, quam quis quo esse, nulla minima cumque.
+        Excepturi atque reiciendis laudantium sed eveniet eaque asperiores fuga accusantium accusamus odit,
+         ut alias voluptatibus delectus nam vero quibusdam, veniam itaque tempora consectetur ipsam nemo? Ut,
+          rerum neque. Ipsum, et.
+        Enim quos sequi totam, ad ipsa facere fuga quasi laborum neque recusandae consectetur unde molestias
+         deleniti eaque hic fugit eius et quo architecto maxime qui consequuntur similique numquam! Perspiciatis, totam.
+    </p>
+    <h6>Direct </h6>
+    <ul class="ol">
+        <li> alert1</li>
+        <li>alert2</li>
+        <li>alert3</li>
+    
+    </ul>
+    <p class="more" spellcheck="true">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea error dignissimos nostrum sunt consequatur vero suscipit
+         qui rerum blanditiis repellendus perspiciatis earum quasi, expedita inventore excepturi eveniet eligendi culpa 
+         esse?
+    Perspiciatis et, animi accusamus, cupiditate facilis aspernatur vel sunt, ut culpa cumque non eius vero mollitia impedit.
+     Quis impedit voluptas quos veritatis in modi. Pariatur excepturi sit non quis explicabo.
+    Quos, earum saepe? Nobis optio atque necessitatibus facere quia suscipit pariatur id cupiditate in quisquam ratione
+     mollitia non illum, voluptate distinctio est minima architecto facilis. Neque animi enim minus vitae?
+    Nam et laborum nostrum tempore, maiores voluptas voluptatum? Perspiciatis est atque voluptas maiores iste aspernatur 
+    fugiat sit quasi? Optio culpa enim fuga facilis a error, voluptate fugiat tempore eveniet </p>
+
+</body>
+
+</html>

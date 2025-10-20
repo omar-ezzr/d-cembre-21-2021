@@ -1,0 +1,28 @@
+.container{
+    border:10px solid gray;
+    height: 400vh;
+    position: relative;
+}
+.box {
+    width:100px;
+     height:100px;
+
+
+}
+.box-one{
+    position: sticky;
+    top:0;
+    background-color:brown;
+    width: auto;
+    height: 100px;
+    left: 100px;
+    height: 40px;
+
+
+}
+.box-two{
+    background-color:darkslateblue;
+}
+.box-three{
+    background-color:yellowgreen;
+}

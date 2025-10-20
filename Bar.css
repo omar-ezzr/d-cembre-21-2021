@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   
+     background-image: url(Rose.jpeg);
+    background-size: cover;
+
+}
+ul li a:hover {
+    color :indianred;
+    padding: 100x;
+    width: 100%;
+ }
+nav p{
+    margin-bottom:30px;
+    padding: 10px 510px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    color: rgb(53, 38, 10) ;
+    line-height: 35px;
+    
+    font-size: 30px;
+}
+nav{
+    width: 100%;
+    height: 140px;
+    background-color:white; 
+}
+
+nav ul {
+
+   padding: 0px 40px;
+float: left;
+
+}
+
+nav ul li {
+   
+    padding: 10px 20px;
+    float: left;
+   list-style: none;
+   position: relative;
+
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    font-size :25 px; ;
+    font-family:'Courier New', Courier, monospace;
+    color :black;
+    padding: 0px 10px;
+}
+ nav ul li  ul{
+      
+    display: none;
+    position: absolute;
+    background-color:white;
+    padding: 13px;
+     border-radius: 5px;
+  
+ }
+ nav ul li:hover ul{
+    display: block;
+
+  
+ }
+ nav ul li ul li {
+     width: 180px;
+     border-radius: 7px;
+    
+ }
+ nav ul li  ul li a {
+    padding:12px 15px;
+}
+ nav ul li ul li a:hover{
+     background-color: rgb(228, 228, 228);
+
+ }
+ 
+
+

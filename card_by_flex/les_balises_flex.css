@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+header{
+    padding: 60px;
+    text-align: center;
+    background-color:lightcyan;
+}
+nav{
+    background-color:lightblue;
+  
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+
+}
+ul::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+nav ul li {
+    float: left;
+
+
+}
+nav ul li a{
+    
+    padding:16px 22px;
+    display: block;
+    color: rgb(204, 194, 194);
+    background-color:rgb(31, 31, 19);
+    text-decoration: none;
+    font-size: larger;
+
+}
+nav ul li a:not(.active):hover{
+    color: rgb(187, 8, 8);
+    background-color: azure;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+main::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+a.active{
+    background-color:gray;
+    color: aliceblue;
+}
+.ol{
+     box-sizing: border-box;
+    padding-left: 10px;
+    height: 600px;
+ float: left;
+    overflow: auto;
+}
+aside{
+   
+    width: 30%;
+    background-color:lightpink;
+   
+}
+article{
+   
+    width: 70%;
+    background-color: blanchedalmond;
+  
+}
+footer{
+    padding: 50px;
+    background-color:rgb(46, 44, 44);
+    text-align: center;
+    color: aliceblue;
+  
+}
+.card1 img {
+    top: 50%;
+    left: 50%;
+   margin: auto;
+    width:60%;
+    border-radius: 12x;
+    overflow: hidden;
+    margin:auto;
+    object-fit: cover;
+    display: block;
+    padding:10px;
+}
+.over{
+    flex-wrap: wrap;
+  display: flex;
+  flex-direction: start ;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: stretch;
+  height: 100vh;
+  padding: 0;
+  margin: 10;
+}
+.over img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    overflow: hidden;
+}
+.over footer{  
+    background-color:white;
+    padding: 20px;
+}
+.over-titles{
+    padding: 0px;
+    margin-bottom:0px;
+}
+.over-description{
+    margin-top: -20px;
+}

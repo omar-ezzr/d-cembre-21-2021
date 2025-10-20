@@ -1,0 +1,21 @@
+.container{
+    border:10px solid black;
+    display:flex;
+    flex-direction:column;
+
+}
+
+.box{
+    width:100px;
+    height:100px;
+    
+}
+.box-one{
+    background-color:red;
+}
+.box-two{
+    background-color:darkslateblue;
+}
+.box-three{
+    background-color:yellowgreen;
+}

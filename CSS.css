@@ -1,0 +1,15 @@
+
+#container :nth-child(2){
+    font-weight:bold;
+    font-style: italic;
+}
+#list li:nth-child(even) {
+    background-color: lightcoral;
+}
+#list li:nth-child(odd) {
+    background-color: lightgoldenrodyellow;
+
+}
+#one tr :nth-child(even){
+    background-color: lightpink;
+}
